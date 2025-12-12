@@ -1,0 +1,329 @@
+[
+  {
+    "name": "Navasana (Boat Pose)",
+    "purpose": "A balancing posture that activates the abdominal muscles.",
+    "benefits": [
+      "Strengthens core and hip flexors",
+      "Improves balance and digestion"
+    ],
+    "image": "/yoga/poses/Boat.png"
+  },
+  {
+    "name": "Vrikshasana (Tree Pose)",
+    "purpose": "Balance on one foot while stabilizing the body through engaged muscles.",
+    "benefits": [
+      "Enhances balance and stability",
+      "Improves focus and body awareness"
+    ],
+    "image": "/yoga/poses/Tree.png"
+  },
+  {
+    "name": "Bhujangasana (Cobra Pose)",
+    "purpose": "A spinal backbend lifting the chest from the ground.",
+    "benefits": [
+      "Strengthens back muscles",
+      "Opens the chest and lungs"
+    ],
+    "image": "/yoga/poses/Cobra.png"
+  },
+  {
+    "name": "Salabhasana (Locust Pose)",
+    "purpose": "A prone back-strengthening pose lifting legs and chest.",
+    "benefits": [
+      "Strengthens lower back, glutes, and hamstrings",
+      "Improves posture and stamina"
+    ],
+    "image": "/yoga/poses/Locust.png"
+  },
+  {
+    "name": "Sirsasana (Headstand)",
+    "purpose": "An inverted balance relying on head and forearm support.",
+    "benefits": [
+      "Builds upper body strength",
+      "Enhances balance and focus",
+      "Boosts circulation and confidence"
+    ],
+    "image": "/yoga/poses/headstand.png"
+  },
+  {
+    "name": "Supported Fish Pose",
+    "purpose": "Chest expands over a bolster or cushion to create a gentle heart opener.",
+    "benefits": [
+      "Releases tension in shoulders and chest",
+      "Calms nervous system and reduces anxiety"
+    ],
+    "image": "/yoga/poses/supported.png"
+  },
+  {
+    "name": "Ardha Uttanasana (Half Forward Fold)",
+    "purpose": "Halfway lift that creates length through the back and spine.",
+    "benefits": [
+      "Strengthens spinal muscles",
+      "Improves posture and hamstring flexibility"
+    ],
+    "image": "/yoga/poses/Fold.png"
+  },
+  {
+    "name": "Virabhadrasana II (Warrior II)",
+    "purpose": "A grounded lunge that energizes the arms and builds stamina.",
+    "benefits": [
+      "Builds leg strength and endurance",
+      "Improves balance and concentration",
+      "Opens hips and shoulders"
+    ],
+    "image": "/yoga/poses/WarriorII.png"
+  },
+  {
+    "name": "Utkatasana (Chair Pose)",
+    "purpose": "A squat-like position that builds heat and leg strength.",
+    "benefits": [
+      "Strengthens thighs, glutes, and lower back",
+      "Improves stamina and balance"
+    ],
+    "image": "/yoga/poses/Chair.png"
+  },
+  {
+    "name": "Anjaneyasana (Low Lunge)",
+    "purpose": "Deep lunge that releases hips while the back knee rests on the floor.",
+    "benefits": [
+      "Opens hip flexors and psoas",
+      "Stretches thighs and groin"
+    ],
+    "image": "/yoga/poses/Low.png"
+  },
+  {
+    "name": "Bakasana – Beginner Arm Balance (Crow Pose)",
+    "purpose": "Arm balance with knees resting on upper arms while leaning forward.",
+    "benefits": [
+      "Strengthens arms, wrists, and core",
+      "Improves focus and balance"
+    ],
+    "image": "/yoga/poses/Crow.png"
+  },
+  {
+    "name": "Gomukhasana (Cow Face Pose)",
+    "purpose": "Knees stacked while arms reach to clasp behind the back.",
+    "benefits": [
+      "Opens shoulders and triceps",
+      "Stretches hips and outer thighs"
+    ],
+    "image": "/yoga/poses/Cow.png"
+  },
+  {
+    "name": "Ardha Matsyendrasana (Spinal Twist)",
+    "purpose": "Seated twist that massages abdominal organs through rotation.",
+    "benefits": [
+      "Supports digestion",
+      "Enhances spinal mobility"
+    ],
+    "image": "/yoga/poses/spinal.png"
+  },
+  {
+    "name": "Setu Bandhasana (Bridge Pose)",
+    "purpose": "A backbend supported by shoulders and feet with lifted hips.",
+    "benefits": [
+      "Strengthens glutes and spine",
+      "Expands the chest and heart space"
+    ],
+    "image": "/yoga/poses/Bridge.png"
+  },
+  {
+    "name": "Urdhva Mukha Svanasana (Upward Facing Dog)",
+    "purpose": "Strong backbend lifting chest while thighs hover above the floor.",
+    "benefits": [
+      "Strengthens arms and wrists",
+      "Opens chest and improves breathing"
+    ],
+    "image": "/yoga/poses/Upward.png"
+  },
+  {
+    "name": "Ardha Pincha Mayurasana (Dolphin Pose)",
+    "purpose": "Forearm-based inversion that builds shoulder strength.",
+    "benefits": [
+      "Strengthens shoulders and arms",
+      "Prepares body for inversions like headstand"
+    ],
+    "image": "/yoga/poses/Dolphin.png"
+  },
+  {
+    "name": "Uttana Shishosana (Puppy Pose)",
+    "purpose": "Heart-opening stretch between child’s pose and downward dog.",
+    "benefits": [
+      "Stretches shoulders and chest",
+      "Lengthens the spine and relieves tension"
+    ],
+    "image": "/yoga/poses/Puppy.png"
+  },
+  {
+    "name": "Trikonasana (Triangle Pose)",
+    "purpose": "A lateral stretch that lengthens both sides of the body.",
+    "benefits": [
+      "Enhances flexibility in the legs and hips",
+      "Supports digestion through core activation"
+    ],
+    "image": "/yoga/poses/Triangle.png"
+  },
+  {
+    "name": "Tadasana (Mountain Pose)",
+    "purpose": "Foundation standing pose that aligns the entire body vertically.",
+    "benefits": [
+      "Improves posture and alignment",
+      "Builds grounding and balance",
+      "Enhances stability through proper stance"
+    ],
+    "image": "/yoga/poses/tadasana.png"
+  },
+  {
+    "name": "Baddha Konasana (Butterfly Pose)",
+    "purpose": "A seated hip opener with soles of the feet together and knees relaxed outward.",
+    "benefits": [
+      "Improves hip mobility",
+      "Enhances inner thigh flexibility"
+    ],
+    "image": "/yoga/poses/butterfly.png"
+  },
+  {
+    "name": "Phalakasana (Plank Pose)",
+    "purpose": "A strong arm-supported posture that stabilizes core muscles.",
+    "benefits": [
+      "Strengthens core and shoulders",
+      "Builds endurance in arms and wrists"
+    ],
+    "image": "/yoga/poses/Plank.png"
+  },
+  {
+    "name": "Ananda Balasana (Happy Baby Pose)",
+    "purpose": "Reclining hip opener with hands holding the feet.",
+    "benefits": [
+      "Releases lower back tension",
+      "Opens hips and inner thighs"
+    ],
+    "image": "/yoga/poses/Happy.png"
+  },
+  {
+    "name": "Eka Pada Rajakapotasana – Beginner Variation (Pigeon Pose)",
+    "purpose": "Forward hip opener with one leg extended behind.",
+    "benefits": [
+      "Deeply releases hip tension",
+      "Stretches glutes and hip rotators"
+    ],
+    "image": "/yoga/poses/Pigeon.png"
+  },
+  {
+    "name": "Viparita Karani (Legs Up the Wall)",
+    "purpose": "Inverted restorative pose with legs supported up a wall.",
+    "benefits": [
+      "Relieves tired legs and swelling",
+      "Encourages deep relaxation"
+    ],
+    "image": "/yoga/poses/Legs.png"
+  },
+  {
+    "name": "Matsyasana (Fish Pose)",
+    "purpose": "Heart-opening backbend performed lying on the back with lifted chest.",
+    "benefits": [
+      "Improves posture and spinal flexibility",
+      "Opens throat and chest to aid breathing"
+    ],
+    "image": "/yoga/poses/Fish.png"
+  },
+  {
+    "name": "Supta Matsyendrasana (Reclined Twist)",
+    "purpose": "Gentle reclined twist that releases tension from the spine.",
+    "benefits": [
+      "Reduces back pain",
+      "Promotes relaxation and detoxification"
+    ],
+    "image": "/yoga/poses/Reclined.png"
+  },
+  {
+    "name": "Dhanurasana (Bow Pose)",
+    "purpose": "Full-body backbend pulling the legs toward the head while on stomach.",
+    "benefits": [
+      "Strengthens entire back and legs",
+      "Stimulates abdominal organs and digestion"
+    ],
+    "image": "/yoga/poses/Bow.png"
+  },
+  {
+    "name": "Ustrasana (Camel Pose)",
+    "purpose": "Deep kneeling backbend creating full front-body opening.",
+    "benefits": [
+      "Improves posture and spinal flexibility",
+      "Stretches chest, abdomen, and hip flexors"
+    ],
+    "image": "/yoga/poses/Camel.png"
+  },
+  {
+    "name": "Uttana Prasarita Eka Padasana (Standing Split)",
+    "purpose": "Forward fold with one leg lifted vertically for balance and stretch.",
+    "benefits": [
+      "Improves balance and leg control",
+      "Deeply stretches hamstrings and calves"
+    ],
+    "image": "/yoga/poses/Standing.png"
+  },
+  {
+    "name": "Malasana (Garland Pose)",
+    "purpose": "Deep squat that increases hip mobility and grounds the body.",
+    "benefits": [
+      "Strengthens legs and core",
+      "Deeply opens hips and pelvic floor"
+    ],
+    "image": "/yoga/poses/Garland.png"
+  },
+  {
+    "name": "Supta Baddha Konasana (Reclined Bound Angle Pose)",
+    "purpose": "Reclined restorative hip opener with knees wide and feet together.",
+    "benefits": [
+      "Relaxes nervous system",
+      "Gently opens hips and inner thighs"
+    ],
+    "image": "/yoga/poses/Recline.png"
+  },
+  {
+    "name": "Alanasana (High Lunge)",
+    "purpose": "A lifted lunge emphasizing leg strength and alignment.",
+    "benefits": [
+      "Strengthens legs and core",
+      "Improves balance and stability"
+    ],
+    "image": "/yoga/poses/High.png"
+  },
+  {
+    "name": "Balasana (Child’s Pose)",
+    "purpose": "A restorative fold that gently releases the back and mind.",
+    "benefits": [
+      "Relieves stress and fatigue",
+      "Eases tension in the lower back and hips"
+    ],
+    "image": "/yoga/poses/balasana.png"
+  },
+  {
+    "name": "Savasana (Corpse Pose)",
+    "purpose": "Complete rest allowing body and mind to reset.",
+    "benefits": [
+      "Reduces stress and mental fatigue",
+      "Promotes full-body relaxation and recovery"
+    ],
+    "image": "/yoga/poses/Corpse.png"
+  },
+  {
+    "name": "Virabhadrasana I (Warrior I)",
+    "purpose": "A powerful standing stance focusing on stability and chest expansion.",
+    "benefits": [
+      "Strengthens legs and hips",
+      "Opens the chest and shoulders"
+    ],
+    "image": "/yoga/poses/WarriorI.png"
+  },
+  {
+    "name": "Vasisthasana (Side Plank)",
+    "purpose": "Arm balance emphasizing oblique and shoulder strength.",
+    "benefits": [
+      "Improves core stability",
+      "Enhances balance and shoulder strength"
+    ],
+    "image": "/yoga/poses/Sideplank.png"
+  }
+]

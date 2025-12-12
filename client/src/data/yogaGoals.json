@@ -1,0 +1,78 @@
+[
+  {
+    "goal": "Reduce Stress & Anxiety",
+    "description": "Gentle breathing and mindful movement soothe the nervous system and quiet the mind.",
+    "suggested": [
+      "Yin Yoga",
+      "Meditation",
+      "Pranayama"
+    ],
+    "image": "/yoga/goals/stress.png"
+  },
+  {
+    "goal": "Boost Flexibility",
+    "description": "Slow, steady stretches open muscles and improve overall mobility.",
+    "suggested": [
+      "Hatha Yoga",
+      "Vinyasa Flow"
+    ],
+    "image": "/yoga/goals/flexibility.png"
+  },
+  {
+    "goal": "Build Strength & Stamina",
+    "description": "Powerful sequences build resilience in body and breath.",
+    "suggested": [
+      "Ashtanga",
+      "Vinyasa Flow"
+    ],
+    "image": "/yoga/goals/strength.png"
+  },
+  {
+    "goal": "Better Sleep",
+    "description": "Calming practices to unwind the body and prepare for deep rest.",
+    "suggested": [
+      "Yoga Nidra",
+      "Restorative Yoga"
+    ],
+    "image": "/yoga/goals/sleep.png"
+  },
+  {
+    "goal": "Weight Management",
+    "description": "Dynamic sequences that build heat, metabolism, and toned muscles.",
+    "suggested": [
+      "Power Yoga",
+      "Ashtanga",
+      "Vinyasa Flow"
+    ],
+    "image": "/yoga/goals/weightloss.png"
+  },
+  {
+    "goal": "Improve Posture",
+    "description": "Alignment-based practices support spinal health and stability.",
+    "suggested": [
+      "Hatha Yoga",
+      "Pranayama"
+    ],
+    "image": "/yoga/goals/posture.png"
+  },
+  {
+    "goal": "Emotional Wellbeing",
+    "description": "Meditative stillness cultivates peace, gratitude, and inner harmony.",
+    "suggested": [
+      "Meditation",
+      "Pranayama",
+      "Yin Yoga"
+    ],
+    "image": "/yoga/goals/emotion.png"
+  },
+  {
+    "goal": "Mental Clarity & Focus",
+    "description": "Sharpens concentration and clears mental fog through precision and breath.",
+    "suggested": [
+      "Kundalini",
+      "Hatha Yoga",
+      "Pranayama"
+    ],
+    "image": "/yoga/goals/focus.png"
+  }
+]

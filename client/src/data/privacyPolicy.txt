@@ -1,0 +1,20 @@
+"title": "Privacy Policy",
+  "lastUpdated": "2025-01-01",
+  "content": [
+    {
+      "heading": "Your Privacy Matters",
+      "text": "GlobalYogaSpace respects your personal information and protects it with care, in alignment with global data regulations."
+    },
+    {
+      "heading": "Data We Collect",
+      "text": "We collect basic details such as name, email, phone number, and your selected yoga goals solely to offer a personalized learning experience."
+    },
+    {
+      "heading": "How We Use Your Data",
+      "text": "Your information is used only for booking sessions, personalizing class plans, and improving your journey with us."
+    },
+    {
+      "heading": "Sharing Your Information",
+      "text": "We do not share your information with third parties except for essential services like secure payments or session delivery."
+    }
+  ]
