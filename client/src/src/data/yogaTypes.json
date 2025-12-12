@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Hatha Yoga",
+    "description": "A gentle, foundational style focusing on basic poses and breathing—great for beginners.",
+    "benefits": [
+      "Strength",
+      "Flexibility",
+      "Balance",
+      "Calm Mind"
+    ],
+    "image": "/yoga/yogas/Hatha.jpeg"
+  },
+  {
+    "name": "Ashtanga Yoga",
+    "description": "A structured, physically demanding series of poses. Builds strength and discipline.",
+    "benefits": [
+      "Stamina",
+      "Strength",
+      "Discipline",
+      "Flexibility"
+    ],
+    "image": "/yoga/yogas/Ashtanga.png"
+  },
+  {
+    "name": "Power Yoga",
+    "description": "A fast-paced, fitness-based style inspired by Ashtanga. Great for strength and cardio.",
+    "benefits": [
+      "Cardio",
+      "Strength",
+      "Flexibility",
+      "Endurance"
+    ],
+    "image": "/yoga/yogas/Power.png"
+  },
+  {
+    "name": "Iyengar Yoga",
+    "description": "Focuses on precision, alignment, and the use of props (blocks, straps). Good for injury prevention.",
+    "benefits": [
+      "Alignment",
+      "Flexibility",
+      "Injury Prevention",
+      "Strength"
+    ],
+    "image": "/yoga/yogas/Iyengar.png"
+  },
+  {
+    "name": "Yin Yoga",
+    "description": "Slow, deep stretching with poses held for long periods. Targets connective tissues.",
+    "benefits": [
+      "Deep Stretching",
+      "Joint Mobility",
+      "Relaxation",
+      "Inner Stillness"
+    ],
+    "image": "/yoga/yogas/Yin.png"
+  },
+  {
+    "name": "Restorative Yoga",
+    "description": "Very gentle, relaxing, and supported postures—ideal for stress relief and recovery.",
+    "benefits": [
+      "Relaxation",
+      "Stress Relief",
+      "Recovery",
+      "Calm Mind"
+    ],
+    "image": "/yoga/yogas/Restorative.png"
+  },
+  {
+    "name": "Kundalini Yoga",
+    "description": "Combines movement, breathwork, chanting, and meditation to awaken energy.",
+    "benefits": [
+      "Energy Awakening",
+      "Focus",
+      "Spiritual Growth",
+      "Breath Awareness"
+    ],
+    "image": "/yoga/yogas/Kundalini.png"
+  },
+  {
+    "name": "Bikram / Hot Yoga",
+    "description": "26-posture sequence practiced in a heated room to increase flexibility and detoxification.",
+    "benefits": [
+      "Flexibility",
+      "Detox",
+      "Strength",
+      "Endurance"
+    ],
+    "image": "/yoga/yogas/Hot.png"
+  },
+  {
+    "name": "Prenatal Yoga",
+    "description": "Designed specifically for pregnant women—safe poses, breathing, and relaxation.",
+    "benefits": [
+      "Pregnancy Support",
+      "Relaxation",
+      "Gentle Strength",
+      "Breath Control"
+    ],
+    "image": "/yoga/yogas/Prenatal.png "
+  },
+  {
+    "name": "Yoga Nidra",
+    "description": "Guided meditation for deep rest and mental relaxation.",
+    "benefits": [
+      "Deep Relaxation",
+      "Stress Relief",
+      "Sleep Improvement",
+      "Mental Clarity"
+    ],
+    "image": "/yoga/yogas/Yoga.png"
+  },
+  {
+    "name": "Chair Yoga",
+    "description": "Adaptive yoga done using a chair—great for seniors or those with limited mobility.",
+    "benefits": [
+      "Accessibility",
+      "Flexibility",
+      "Gentle Strength",
+      "Joint Mobility"
+    ],
+    "image": "/yoga/yogas/Chair.png"
+  },
+  {
+    "name": "Aerial Yoga",
+    "description": "Yoga performed with the support of a hammock or silk suspended from the ceiling.",
+    "benefits": [
+      "Strength",
+      "Flexibility",
+      "Balance",
+      "Core Stability"
+    ],
+    "image": "/yoga/yogas/Aerial.png"
+  },
+  {
+    "name": "Acro Yoga",
+    "description": "Partner-based yoga combining acrobatics and Thai massage elements.",
+    "benefits": [
+      "Partner Coordination",
+      "Strength",
+      "Balance",
+      "Flexibility"
+    ],
+    "image": "/yoga/yogas/Acro.png"
+  },
+  {
+    "name": "Jivamukti Yoga",
+    "description": "Blend of physical practice, music, spirituality, and philosophy.",
+    "benefits": [
+      "Spiritual Growth",
+      "Strength",
+      "Flexibility",
+      "Mindfulness"
+    ],
+    "image": "/yoga/yogas/Jivamukti.png"
+  }
+]
