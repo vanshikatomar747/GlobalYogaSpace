@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
 import axios from "axios";
+import HomeButton from "../../components/HomeButton";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -65,6 +66,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-cream-main flex items-center justify-center px-4 py-12 relative">
+      <HomeButton />
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-green-main/5 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-main/5 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>

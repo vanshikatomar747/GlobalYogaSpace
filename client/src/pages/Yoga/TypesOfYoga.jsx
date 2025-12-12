@@ -1,9 +1,11 @@
 import React from "react";
 import yogaTypes from "../../data/yogaTypes.json";
+import HomeButton from "../../components/HomeButton";
 
 const TypesOfYoga = () => {
   return (
     <div className="min-h-screen bg-cream-main py-12 md:py-20 px-4">
+      <HomeButton />
       <div className="max-w-7xl mx-auto">
         <h1 className="text-2xl md:text-5xl font-bold text-green-main mb-8 md:mb-12 text-center">Types of Yoga</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">

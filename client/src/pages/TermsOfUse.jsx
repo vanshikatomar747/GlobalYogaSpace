@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import HomeButton from "../components/HomeButton";
 
 const TermsOfUse = () => {
   const termsData = {
@@ -26,6 +27,7 @@ const TermsOfUse = () => {
 
   return (
     <div className="min-h-screen bg-cream-main py-20 px-4">
+      <HomeButton />
       <div className="max-w-4xl mx-auto bg-white p-10 rounded-3xl shadow-sm">
         <h1 className="text-4xl font-bold text-green-main mb-2 text-center">{termsData.title}</h1>
         <p className="text-center text-gray-500 mb-12">Last Updated: {termsData.lastUpdated}</p>

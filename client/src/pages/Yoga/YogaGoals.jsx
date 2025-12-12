@@ -1,6 +1,7 @@
 import React from "react";
 import yogaGoals from "../../data/yogaGoals.json";
 import { Link } from "react-router-dom";
+import HomeButton from "../../components/HomeButton";
 
 const YogaGoals = () => {
   // Insert the promo card at index 4 to be in the center of a 3x3 grid (9 items total)
@@ -16,6 +17,7 @@ const YogaGoals = () => {
 
   return (
     <div className="min-h-screen bg-cream-main py-12 md:py-20 px-4">
+      <HomeButton />
       <div className="max-w-7xl mx-auto">
         <h1 className="text-2xl md:text-5xl font-bold text-green-main mb-8 md:mb-12 text-center">
           Yoga For Specific Goals

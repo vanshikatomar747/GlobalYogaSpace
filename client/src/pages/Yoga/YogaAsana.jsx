@@ -1,9 +1,11 @@
 import React from "react";
 import yogaAsana from "../../data/yogaAsana.json";
+import HomeButton from "../../components/HomeButton";
 
 const YogaAsana = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-cream-main via-cream-main to-orange-main/10 py-16 md:py-24 px-4">
+      <HomeButton />
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12 md:mb-16">

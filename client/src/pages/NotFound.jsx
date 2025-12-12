@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HomeButton from "../components/HomeButton";
 
 const NotFound = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-creamMain px-6 text-center">
+      <HomeButton />
       <h1 className="text-9xl font-bold text-orangeMain mb-4 font-serif">404</h1>
       <h2 className="text-3xl font-bold text-greenExtra mb-6">Page Not Found</h2>
       <p className="text-xl text-gray-600 mb-8 max-w-lg">

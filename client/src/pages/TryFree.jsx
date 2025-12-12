@@ -3,6 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaWhatsapp, FaEnvelope, FaCheckCircle } from "react-icons/fa"; // Added FaCheckCircle
 import axios from "axios";
 import PhoneInput from "../components/PhoneInput";
+import HomeButton from "../components/HomeButton";
+import { getUserLocation } from "../utils/geolocation";
 
 const TryFree = () => {
   const navigate = useNavigate();
@@ -43,6 +45,26 @@ const TryFree = () => {
         // You might want to pre-fill name/email/phone for the questionnaire data payload implicitly
       }
     }
+
+    // Auto-fill location using geolocation
+    const loadLocation = async () => {
+      try {
+        console.log('🌍 TryFree: Loading location...');
+        const location = await getUserLocation();
+        console.log('🌍 TryFree: Got location:', location);
+
+        if (location && location.city) {
+          console.log('🌍 TryFree: Setting city to:', location.city);
+          setFormData(prev => ({ ...prev, place: location.city }));
+        } else {
+          console.log('🌍 TryFree: No city found in location data');
+        }
+      } catch (error) {
+        console.error('🌍 TryFree: Error loading location:', error);
+      }
+    };
+
+    loadLocation();
   }, []);
 
   const handleChange = (e) => {
@@ -117,21 +139,22 @@ const TryFree = () => {
   };
 
   return (
-    <div className="min-h-screen bg-cream-main flex items-center justify-center px-4 py-12 relative overflow-hidden transition-all duration-500 ease-in-out">
+    <div className="min-h-screen bg-cream-main flex items-center justify-center px-4 py-8 relative overflow-hidden transition-all duration-500 ease-in-out">
+      <HomeButton />
       {/* Background Decor - Animated and Glowing */}
       <div className="absolute top-[-20%] right-[-10%] w-[40rem] h-[40rem] bg-orange-main/20 rounded-full blur-[100px] animate-pulse"></div>
       <div className="absolute bottom-[-20%] left-[-10%] w-[40rem] h-[40rem] bg-green-main/15 rounded-full blur-[100px] animate-pulse delay-1000"></div>
 
-      <div className="md:w-full max-w-4xl z-10 flex flex-col md:flex-row shadow-2xl rounded-[2.5rem] overflow-hidden bg-white/80 backdrop-blur-xl border border-white/60">
+      <div className="md:w-full max-w-3xl z-10 flex flex-col md:flex-row shadow-2xl rounded-[2.5rem] overflow-hidden bg-white/80 backdrop-blur-xl border border-white/60">
 
         {/* Left Side: Visual/Context (Hidden on Mobile for compactness or kept for vibe) */}
-        <div className="hidden md:flex md:w-5/12 bg-gradient-to-br from-green-main to-green-800 text-white p-12 flex-col justify-between relative overflow-hidden">
+        <div className="hidden md:flex md:w-5/12 bg-gradient-to-br from-green-main to-green-800 text-white p-8 flex-col justify-between relative overflow-hidden">
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="relative z-10">
-            <h2 className="text-4xl font-bold mb-4 leading-tight">Start Your Yoga Journey</h2>
+            <h2 className="text-3xl font-bold mb-3 leading-tight">Start Your Yoga Journey</h2>
             <p className="text-white/80 text-lg">Join our community and experience the transformation of mind and body.</p>
           </div>
-          <div className="relative z-10 mt-12 space-y-4">
+          <div className="relative z-10 mt-8 space-y-3">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><FaCheckCircle className="text-white text-xl" /></div>
               <span>Personalized Plans</span>
@@ -150,7 +173,7 @@ const TryFree = () => {
         </div>
 
         {/* Right Side: Form */}
-        <div className="w-full md:w-7/12 p-8 md:p-12 bg-white/50 relative">
+        <div className="w-full md:w-7/12 p-6 md:p-8 bg-white/50 relative">
 
           {isAuthenticated ? (
             // Logged In View: Questionnaire
@@ -256,26 +279,25 @@ const TryFree = () => {
                 {error && <div className="bg-red-50 text-red-600 p-4 rounded-xl mb-6 text-sm flex items-center gap-2 border border-red-100"><FaCheckCircle className="text-red-500" /> {error}</div>}
 
                 <form onSubmit={handleRegister} className="space-y-4">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-gray-700 font-semibold mb-2 text-sm ml-1">Full Name</label>
-                      <input type="text" name="name" required className="w-full bg-white border border-gray-200 p-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-main/50 transition-all hover:border-orange-main/30" placeholder="John Doe" onChange={handleChange} />
-                    </div>
-                    <div>
-                      <label className="block text-gray-700 font-semibold mb-2 text-sm ml-1">Phone Number</label>
-                      <div className="phone-input-wrapper">
-                        <PhoneInput
-                          value={formData.phone}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
+                  <div>
+                    <label className="block text-gray-700 font-semibold mb-2 text-sm ml-1">Full Name</label>
+                    <input type="text" name="name" required className="w-full bg-white border border-gray-200 p-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-main/50 transition-all hover:border-orange-main/30" placeholder="John Doe" onChange={handleChange} />
+                  </div>
+
+                  <div>
+                    <label className="block text-gray-700 font-semibold mb-2 text-sm ml-1">Phone Number</label>
+                    <div className="phone-input-wrapper">
+                      <PhoneInput
+                        value={formData.phone}
+                        onChange={handleChange}
+                        required
+                      />
                     </div>
                   </div>
 
                   <div>
                     <label className="block text-gray-700 font-semibold mb-2 text-sm ml-1">Location (City)</label>
-                    <input type="text" name="place" required className="w-full bg-white border border-gray-200 p-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-main/50 transition-all hover:border-orange-main/30" placeholder="New York" onChange={handleChange} />
+                    <input type="text" name="place" value={formData.place} required className="w-full bg-white border border-gray-200 p-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-main/50 transition-all hover:border-orange-main/30" placeholder="New York" onChange={handleChange} />
                   </div>
 
                   <div>

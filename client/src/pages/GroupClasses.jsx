@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HomeButton from "../components/HomeButton";
 
 const GroupClasses = () => {
   return (
     <div className="min-h-screen bg-cream-main py-12 md:py-20 px-4 flex items-center justify-center">
+      <HomeButton />
       <div className="max-w-4xl w-full bg-white p-6 md:p-10 rounded-3xl shadow-xl border border-orange-main/20 text-center">
         <h2 className="text-2xl md:text-5xl font-bold text-green-main mb-6 md:mb-8">Group Classes</h2>
         <p className="text-base md:text-lg text-gray-700 mb-4 md:mb-6 leading-relaxed">

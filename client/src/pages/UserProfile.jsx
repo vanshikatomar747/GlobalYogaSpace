@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { FaUser, FaPhone, FaMapMarkerAlt, FaEnvelope, FaPen, FaSave, FaSignOutAlt, FaCalendar } from "react-icons/fa";
 import PhoneInput from "../components/PhoneInput";
+import HomeButton from "../components/HomeButton";
 
 const UserProfile = () => {
     const navigate = useNavigate();
@@ -79,6 +80,7 @@ const UserProfile = () => {
 
     return (
         <div className="min-h-screen bg-cream-main pt-24 px-4 pb-12">
+            <HomeButton />
             <div className="max-w-4xl mx-auto space-y-8">
 
                 {/* Profile Header Card */}
