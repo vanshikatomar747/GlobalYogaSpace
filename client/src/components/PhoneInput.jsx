@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { HiChevronDown } from "react-icons/hi";
+import { getPhoneCountryCode } from "../utils/geolocation";
 
 // Add flags for a more premium feel (using emoji for simplicity and performance)
 const countryCodes = [
@@ -16,27 +17,11 @@ const PhoneInput = ({ value, onChange, name = "phone", placeholder = "Phone Numb
     const [phoneNumber, setPhoneNumber] = useState("");
     const [isFocused, setIsFocused] = useState(false);
 
-    // Auto-detect country code based on user's location
+    // Auto-detect country code based on user's location using browser geolocation
     useEffect(() => {
         const detectCountry = async () => {
             try {
-                const response = await fetch('https://ipapi.co/json/');
-                const data = await response.json();
-                const countryCode = data.country_code; // e.g., "US", "IN", "GB"
-
-                // Map country code to phone code
-                const countryMapping = {
-                    'IN': '+91',
-                    'US': '+1',
-                    'GB': '+44',
-                    'AU': '+61',
-                    'AE': '+971',
-                    'JP': '+81',
-                    'DE': '+49',
-                    'FR': '+33',
-                };
-
-                const detectedCode = countryMapping[countryCode] || '+91'; // Fallback to +91
+                const detectedCode = await getPhoneCountryCode();
                 setSelectedCode(detectedCode);
             } catch (error) {
                 console.log('Could not detect country, using default +91');
