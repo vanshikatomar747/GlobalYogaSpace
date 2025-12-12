@@ -22,23 +22,20 @@ connectDB();
 
 // Middlewares
 // CORS Configuration for production
-const allowedOrigins = [
-  'http://localhost:5173',                      // Local development
-  'https://global-yoga-client.vercel.app',      // Production frontend
-  'https://global-yoga-client.vercel.app/',     // With trailing slash
-];
-
 app.use(cors({
   origin: function (origin, callback) {
     // Allow requests with no origin (like mobile apps, Postman, etc.)
     if (!origin) return callback(null, true);
 
-    if (allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      console.log('CORS blocked origin:', origin);
-      callback(new Error('Not allowed by CORS'));
-    }
+    // Allow localhost for development
+    if (origin.includes('localhost')) return callback(null, true);
+
+    // Allow any Vercel deployment (production and preview URLs)
+    if (origin.includes('vercel.app')) return callback(null, true);
+
+    // If not allowed, block it
+    console.log('CORS blocked origin:', origin);
+    callback(new Error('Not allowed by CORS'));
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
